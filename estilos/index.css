@@ -9,15 +9,26 @@ main{
     background-color: white;
     padding: 7px;
     box-shadow: 5px 5px 20px black;
+    height: 490px;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
-    color: #F50000;
+    color: #690000;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 2px 2px 3px #1f0000;
+    text-shadow: 1px 1px 3px #180000;
 }
 p.banner{
     text-align: center;
+}
+div.links{
+    text-align: center;
+    background-color: #690000;
+    box-shadow: 5px 5px 10px;
+    padding: 10px;
+}
+div.in{
+    background-color: rgb(208, 208, 208);
+    box-shadow: 1px 1px 3px black;
 }
