@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to bottom, #FF7070, #FF3333, #690000);
+    background-attachment: fixed;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+main{
+    background-color: white;
+    padding: 7px;
+    box-shadow: 5px 5px 20px black;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #F50000;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px #1f0000;
+}
