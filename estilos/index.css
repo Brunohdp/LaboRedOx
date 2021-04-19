@@ -1,23 +1,99 @@
 body{
-    background-image: linear-gradient(to bottom, #FF7070, #FF3333, #690000);
+    background-image: linear-gradient(to bottom, #FF7070, #FF3333 30%, #000000 77%);
     background-attachment: fixed;
-    font-size: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
+
+
+
+/* Header */
+
+header {
+    padding: 20px;
+    width: 1225px;
+    margin: 0 auto;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    height: 170px;
+    margin: 0 auto;
+}
+.banner {
+    text-align: center;
+    left: 0;
+}
+.navegacao {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    position: absolute; 
+    padding: 0;
+    left: 185px;
+    top: 135;
+}
+nav li {
+    display: inline;
+    margin: 0 15px 0 15px;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.menu a:active {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+
+
+/* Main */
+
 main{
     background-color: white;
     padding: 7px;
-    box-shadow: 5px 5px 20px black;
+    margin: 0 auto;
+    width: 1300px;
 }
-h1{
+.layout {
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 2.5em;
     color: #F50000;
+    padding: 20px;
     text-align: center;
-    text-decoration: underline;
-    text-shadow: 2px 2px 3px #1f0000;
+    text-shadow: 1px 1px 3px #1f0000;
 }
-p.banner{
+.nos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 70px;
+    font-size: 20px;
+}
+
+/* footer */
+
+footer {
+    background-color: #000000;
     text-align: center;
+    margin-top: 50px;
+}
+.rodape {
+    width: 150px;
+}
+.direitos {
+    color: #FFFFFF;
 }
