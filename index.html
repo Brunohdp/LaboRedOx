@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Lab - RedOx</title>
-    <link rel="stylesheet" href="estilos/index.css">
-</head>
-<body>
-    <p class="banner">
-        <picture>
-            <source media="(max-width: 510px)" srcset="midia/imagens/logo/banner/png/banner-p.png" type="image/png">
-            <source media="(max-width: 710px)" srcset="midia/imagens/logo/banner/png/banner-m.png" type="image/png">
-            <img src="midia/imagens/logo/banner/png/banner-g.png" alt="Banner com logo e nome do lab">
-        </picture>
-    </p>
-    <main>
-        <p>
-            <a href="#">Publicações</a>
-            <a href="#">Técnicas</a>
-            <a href="#">Equipe</a>
-            <a href="#">Contatos</a>
-        </p>
-        <h1>Quem Somos Nós?</h1>
-        <p>
-            Nós somos um grupo de pesquisadores e estudantes do laboratório RedOx/Inflamação, que está localizado na Universidade Estadual Paulista (UNESP), Faculdade de Medicina de Botucatu (FMB), dentro do departamento de patologia na Unidade de Pesquisa Experimental (UNIPEX). <br>
-            Visamos estudar os efeitos inflamatórios e alterações no estado RedOx nos órgão e funções fisiológicas em modelo animal de ratos induzidos a obesidade com dieta High Sugar Fat (HSF). <br>
-            Este site tem como objetivo divulgar o laboratório e ciência em si através do compartilhamento de técnicas que utilizamos para criação, manutenção e finalização de biotérios, aulas que ministramos relacionadas à inflamação e estado RedOx e todas as publicações que temos em todas as revistas, afim de concentrar o maior material científico produzido pelo laboratório desde o momento de sua abertura.
-        </p>
-    </main>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Lab - RedOx</title>
+        <link rel="stylesheet" href="estilos/index.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1 class="banner">
+                    <a href="index.html" target="_self">
+                        <picture>
+                            <source media="(max-width: 510px)" srcset="midia/imagens/logo/banner/png/banner-p.png" type="image/png">
+                            <source media="(max-width: 710px)" srcset="midia/imagens/logo/banner/png/banner-m.png" type="image/png">
+                            <img src="midia/imagens/logo/banner/png/banner-g.png" alt="Banner com logo e nome do lab">
+                        </picture>
+                    </a>
+                </h1>
+                <nav>
+                    <ul class="navegacao">
+                        <li class="menu"><a href="#" target="_self" rel="next">Publicações</a></li>
+                        <li class="menu"><a href="#" target="_self" rel="next">Técnicas</a></li>
+                        <li class="menu"><a href="#" target="_self" rel="next">Equipe</a></li>
+                        <li class="menu"><a href="#" target="_self" rel="next">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="layout">
+                <h2>Quem Somos Nós?</h2>
+                <p class="nos">
+                    Nós somos um grupo de pesquisadores e estudantes do <em><strong>Laboratório RedOx/Inflamação</strong></em>, que está localizado na <em>Universidade Estadual Paulista (UNESP)</em>, <em>Faculdade de Medicina de Botucatu (FMB)</em>, dentro do departamento de patologia na <em><strong>Unidade de Pesquisa Experimental (UNIPEX)</strong></em>.
+                </p>
+
+                <p class="nos">
+                    Visamos estudar os efeitos inflamatórios e alterações no estado RedOx nos órgão e funções fisiológicas em modelo animal de ratos induzidos a obesidade com dieta <em>High Sugar Fat (HSF)</em>.                        
+                </p>
+                <p class="nos">
+                        Este site tem como objetivo divulgar o laboratório e ciência em si através do compartilhamento de técnicas que utilizamos para criação, manutenção e finalização de biotérios, aulas que ministramos relacionadas à <em>inflamação</em> e <em>estado RedOx</em> e todas as publicações que temos em todas as revistas, afim de concentrar o maior material científico produzido pelo laboratório desde o momento de sua abertura.
+                </p>
+                
+            </div>
+        </main>
     <script>
-        window.confirm('ATENÇÃO: Este site ainda está no incício de seu desenvolvimento, portanto, a paleta de cores, interatividade e conteúdo ainda sofreram MUITAS alterações. Obrigado pela compreensão!');
-    </script>
-</body>
+            window.confirm('ATENÇÃO: Este site ainda está no incício de seu desenvolvimento, portanto, a paleta de cores, interatividade e conteúdo ainda sofreram MUITAS alterações. Obrigado pela compreensão!');
+        </script>
+    </body>
+    <footer>
+        <img class="rodape" src="midia/imagens/logo/logo/png/Logo-RedOx - vm claro.png" alt="Logo rodapé">
+        <p class="direitos">&copy; Laboratório RedOx - 2021</p>
+    </footer>
 </html>
