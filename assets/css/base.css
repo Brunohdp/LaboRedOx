@@ -1,0 +1,18 @@
+:root{
+    --titulo: 'Montserrat', sans-serif;
+    --texto: 'Open Sans', sans-serif;
+    --branco: #ffffff;
+    --cinza: #e1e1e1;
+    --cinza-claro: #f2f2f2;
+    --preto: #000000;
+    --rosa: #FF7070;
+    --rosa-escuro: #FF3333;
+    --vermelho: #DE110A;
+    --vermelho-escuro: #9C0000;
+    --vermelho-dark: #690000;
+}
+
+body {
+    background-color: var(--cinza-claro);
+    font-family: var(--texto);
+}
