@@ -3,8 +3,10 @@ Textos
 *** Cabecalho ***
 título: Laboratório RedOx/Inflamação
 
-Navegação: - Publicações
+Navegação: 
+- Início
 - Técnicas
+- Publicações
 - Equipe
 - Contato
 
