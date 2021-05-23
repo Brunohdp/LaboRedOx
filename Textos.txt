@@ -13,7 +13,8 @@ Navegação:
 *** Principal ***
 título: Quem Somos Nós?
 
-Texto: Nós somos um grupo de pesquisadores e estudantes do Laboratório RedOx/Inflamação, que está localizado na Universidade Estadual Paulista (UNESP), Faculdade de Medicina de Botucatu (FMB), dentro do departamento de patologia na Unidade de Pesquisa Experimental (UNIPEX).
+Texto:
+Nós somos um grupo de pesquisadores e estudantes do Laboratório RedOx/Inflamação, que está localizado na Universidade Estadual Paulista (UNESP), Faculdade de Medicina de Botucatu (FMB), dentro do departamento de patologia na Unidade de Pesquisa Experimental (UNIPEX).
 Visamos estudar os efeitos inflamatórios e alterações no estado RedOx nos órgão e funções fisiológicas em modelo animal de ratos induzidos a obesidade com dieta <em>High Sugar Fat (HSF).
 Este site tem como objetivo divulgar o laboratório e ciência em si através do compartilhamento de técnicas que utilizamos para criação, manutenção e finalização de biotérios, aulas que ministramos relacionadas à inflamação e <em>estado RedOx e todas as publicações que temos em todas as revistas, afim de concentrar o maior material científico produzido pelo laboratório desde o momento de sua abertura.
 
