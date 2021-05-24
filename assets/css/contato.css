@@ -1,0 +1,34 @@
+.contato {
+    background-color: var(--branco);
+    margin-top: 10px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contato .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.contato__titulo {
+    color: var(--cinza-dark);
+    font-family: var(--titulo);
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contato__texto {
+    margin-bottom: 20px;
+}
+
+.contato__botao {
+    border: 1px solid var(--cinza-escuro);
+    border-radius: 5px;
+    color: var(--cinza-escuro);
+    padding: 10px;
+    text-decoration: none;
+}

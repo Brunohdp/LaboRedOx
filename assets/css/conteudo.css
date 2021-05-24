@@ -1,10 +1,12 @@
-.conteudo .container {
+.conteudo {
     margin-top: 2.5rem;
-    padding: 0;
 }
 
+.conteudoPrincipal {
+    margin-bottom: 10px;
+}
 .conteudoPrincipal__titulo {
-    color: inherit;
+    color: var(--cinza-dark);
     font-family: var(--titulo);
     font-size: 1.9rem;
     font-weight: bold;
