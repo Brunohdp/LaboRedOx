@@ -50,20 +50,18 @@
 }
 
 
-/* Versão Mobile */
+/* Parte Mobile */
 
 @media screen and (max-width: 768px) {
     .cabecalho {
         margin-bottom: 5px;
         padding-bottom: 20px;
         text-align: center;
-        width: 100%;
     }
     .cabecalho .container {
         flex-direction: column;
         margin: 0 auto;
         padding: 0;
-        width: 94%;
     }
     .cabecalho__titulo {
         margin-top: 2rem;

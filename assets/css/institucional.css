@@ -5,7 +5,7 @@
     text-align: left;
 }
 
-.institucional .container{
+.institucional .container {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -41,6 +41,7 @@
     text-decoration: none;
     transition: all .3s ease-in-out;
 }
+
 .institucional__contato__tel:hover {
     color: var(--cinza-link);
     text-decoration: underline;
@@ -48,4 +49,19 @@
 
 .institucional__contato__email {
     color: var(--azul-claro);
+}
+
+
+/* Parte Mobile */
+
+@media screen and (max-width: 768px) {
+    .institucional .container {
+        flex-direction: column;
+    }
+    .institucional__sobre {
+        margin-bottom: 10px;
+    }
+    .institucional__imagem {
+        margin-top: 10px;
+    }
 }

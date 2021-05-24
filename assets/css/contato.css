@@ -32,3 +32,12 @@
     padding: 10px;
     text-decoration: none;
 }
+
+
+/* Parte Mobile */
+
+@media screen and (max-width: 768px) {
+    .contato .container {
+        width: 94%;
+    }
+}
