@@ -1,0 +1,23 @@
+.rodape__patrocinadores {
+    padding: 40px 0;
+}
+
+.rodape__patrocinadores__lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape__fim {
+    background-color: var(--cinza-rodape);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape__fim__logo {
+    width: 50px;
+}
+
+.rodape__fim__direitos {
+    color: var(--branco);
+    font-size: .7rem;
+}

@@ -8,6 +8,7 @@
     --cinza-dark: #383838;
     --cinza-escuro: #5a5a5a;
     --cinza-link:  #a3a3a3;
+    --cinza-rodape: #333333;
     --preto: #000000;
     --rosa: #FF7070;
     --rosa-escuro: #FF3333;
@@ -17,7 +18,7 @@
 }
 
 body {
-    background-color: var(--cinza-claro);
+    background-color: var(--branco);
     color: var(--cinza-dark);
     font-family: var(--texto);
 }
